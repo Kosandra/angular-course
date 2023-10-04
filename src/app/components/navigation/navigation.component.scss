@@ -1,0 +1,32 @@
+.nav-panel{
+  background-color: rgba(252, 211, 77, 0.9);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.nav-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 42rem;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 20px;
+
+  li{
+    a{
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
